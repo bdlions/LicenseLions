@@ -1,0 +1,687 @@
+2015-11-25 18:28:49,908 [Slf4JLogger.java:main:71] - Using SLF4J as the default logging framework
+2015-11-25 18:28:49,918 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.level: simple
+2015-11-25 18:28:49,988 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.maxRecords: 4
+2015-11-25 18:28:50,068 [Slf4JLogger.java:main:76] - -Dio.netty.eventLoopThreads: 8
+2015-11-25 18:28:50,168 [Slf4JLogger.java:main:76] - java.nio.Buffer.address: available
+2015-11-25 18:28:50,168 [Slf4JLogger.java:main:76] - sun.misc.Unsafe.theUnsafe: available
+2015-11-25 18:28:50,168 [Slf4JLogger.java:main:71] - sun.misc.Unsafe.copyMemory: available
+2015-11-25 18:28:50,168 [Slf4JLogger.java:main:76] - java.nio.Bits.unaligned: true
+2015-11-25 18:28:50,168 [Slf4JLogger.java:main:71] - Platform: Windows
+2015-11-25 18:28:50,178 [Slf4JLogger.java:main:76] - Java version: 8
+2015-11-25 18:28:50,178 [Slf4JLogger.java:main:76] - -Dio.netty.noUnsafe: false
+2015-11-25 18:28:50,178 [Slf4JLogger.java:main:76] - sun.misc.Unsafe: available
+2015-11-25 18:28:50,188 [Slf4JLogger.java:main:76] - -Dio.netty.noJavassist: false
+2015-11-25 18:28:50,728 [Slf4JLogger.java:main:71] - Javassist: available
+2015-11-25 18:28:50,728 [Slf4JLogger.java:main:76] - -Dio.netty.tmpdir: C:\Users\nazmul\AppData\Local\Temp (java.io.tmpdir)
+2015-11-25 18:28:50,728 [Slf4JLogger.java:main:76] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2015-11-25 18:28:50,728 [Slf4JLogger.java:main:76] - -Dio.netty.noPreferDirect: false
+2015-11-25 18:28:50,828 [Slf4JLogger.java:main:76] - -Dio.netty.noKeySetOptimization: false
+2015-11-25 18:28:50,828 [Slf4JLogger.java:main:76] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-11-25 18:28:51,178 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@548a9f61
+2015-11-25 18:28:51,188 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7c16905e
+2015-11-25 18:28:51,188 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2a5ca609
+2015-11-25 18:28:51,188 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@68be2bc2
+2015-11-25 18:28:51,188 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@675d3402
+2015-11-25 18:28:51,188 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@482f8f11
+2015-11-25 18:28:51,188 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1b604f19
+2015-11-25 18:28:51,188 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4cc0edeb
+2015-11-25 18:28:51,198 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18be83e4
+2015-11-25 18:28:51,628 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numHeapArenas: 8
+2015-11-25 18:28:51,628 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numDirectArenas: 8
+2015-11-25 18:28:51,628 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.pageSize: 8192
+2015-11-25 18:28:51,628 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxOrder: 11
+2015-11-25 18:28:51,628 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.chunkSize: 16777216
+2015-11-25 18:28:51,628 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.tinyCacheSize: 512
+2015-11-25 18:28:51,628 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.smallCacheSize: 256
+2015-11-25 18:28:51,628 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.normalCacheSize: 64
+2015-11-25 18:28:51,638 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-11-25 18:28:51,638 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-11-25 18:28:51,658 [Slf4JLogger.java:vert.x-eventloop-thread-2:71] - -Dio.netty.initialSeedUniquifier: 0x44720728bea48e17 (took 3 ms)
+2015-11-25 18:28:51,688 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.type: unpooled
+2015-11-25 18:28:51,688 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-11-25 18:28:51,828 [Slf4JLogger.java:vert.x-eventloop-thread-2:86] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-11-25 18:28:51,828 [Slf4JLogger.java:vert.x-eventloop-thread-2:81] - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-11-25 18:29:07,992 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.recycler.maxCapacity.default: 262144
+2015-11-25 18:33:54,122 [Slf4JLogger.java:main:71] - Using SLF4J as the default logging framework
+2015-11-25 18:33:54,122 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.level: simple
+2015-11-25 18:33:54,122 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.maxRecords: 4
+2015-11-25 18:33:54,142 [Slf4JLogger.java:main:76] - -Dio.netty.eventLoopThreads: 8
+2015-11-25 18:33:54,152 [Slf4JLogger.java:main:76] - java.nio.Buffer.address: available
+2015-11-25 18:33:54,152 [Slf4JLogger.java:main:76] - sun.misc.Unsafe.theUnsafe: available
+2015-11-25 18:33:54,152 [Slf4JLogger.java:main:71] - sun.misc.Unsafe.copyMemory: available
+2015-11-25 18:33:54,152 [Slf4JLogger.java:main:76] - java.nio.Bits.unaligned: true
+2015-11-25 18:33:54,152 [Slf4JLogger.java:main:71] - Platform: Windows
+2015-11-25 18:33:54,152 [Slf4JLogger.java:main:76] - Java version: 8
+2015-11-25 18:33:54,162 [Slf4JLogger.java:main:76] - -Dio.netty.noUnsafe: false
+2015-11-25 18:33:54,162 [Slf4JLogger.java:main:76] - sun.misc.Unsafe: available
+2015-11-25 18:33:54,162 [Slf4JLogger.java:main:76] - -Dio.netty.noJavassist: false
+2015-11-25 18:33:54,272 [Slf4JLogger.java:main:71] - Javassist: available
+2015-11-25 18:33:54,272 [Slf4JLogger.java:main:76] - -Dio.netty.tmpdir: C:\Users\nazmul\AppData\Local\Temp (java.io.tmpdir)
+2015-11-25 18:33:54,272 [Slf4JLogger.java:main:76] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2015-11-25 18:33:54,272 [Slf4JLogger.java:main:76] - -Dio.netty.noPreferDirect: false
+2015-11-25 18:33:54,292 [Slf4JLogger.java:main:76] - -Dio.netty.noKeySetOptimization: false
+2015-11-25 18:33:54,292 [Slf4JLogger.java:main:76] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-11-25 18:33:54,322 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@548a9f61
+2015-11-25 18:33:54,322 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7c16905e
+2015-11-25 18:33:54,322 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2a5ca609
+2015-11-25 18:33:54,322 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@68be2bc2
+2015-11-25 18:33:54,322 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@675d3402
+2015-11-25 18:33:54,322 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@482f8f11
+2015-11-25 18:33:54,332 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1b604f19
+2015-11-25 18:33:54,332 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4cc0edeb
+2015-11-25 18:33:54,332 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18be83e4
+2015-11-25 18:33:54,622 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numHeapArenas: 8
+2015-11-25 18:33:54,622 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numDirectArenas: 8
+2015-11-25 18:33:54,622 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.pageSize: 8192
+2015-11-25 18:33:54,622 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxOrder: 11
+2015-11-25 18:33:54,622 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.chunkSize: 16777216
+2015-11-25 18:33:54,622 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.tinyCacheSize: 512
+2015-11-25 18:33:54,632 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.smallCacheSize: 256
+2015-11-25 18:33:54,632 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.normalCacheSize: 64
+2015-11-25 18:33:54,632 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-11-25 18:33:54,632 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-11-25 18:33:54,652 [Slf4JLogger.java:vert.x-eventloop-thread-2:71] - -Dio.netty.initialSeedUniquifier: 0xd71bc85bd002342d (took 1 ms)
+2015-11-25 18:33:54,682 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.type: unpooled
+2015-11-25 18:33:54,682 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-11-25 18:33:54,812 [Slf4JLogger.java:vert.x-eventloop-thread-2:86] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-11-25 18:33:54,812 [Slf4JLogger.java:vert.x-eventloop-thread-2:81] - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-11-25 18:33:57,612 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.recycler.maxCapacity.default: 262144
+2015-11-25 23:30:33,886 [Slf4JLogger.java:main:71] - Using SLF4J as the default logging framework
+2015-11-25 23:30:33,937 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.level: simple
+2015-11-25 23:30:33,949 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.maxRecords: 4
+2015-11-25 23:30:34,030 [Slf4JLogger.java:main:76] - -Dio.netty.eventLoopThreads: 8
+2015-11-25 23:30:34,140 [Slf4JLogger.java:main:76] - java.nio.Buffer.address: available
+2015-11-25 23:30:34,142 [Slf4JLogger.java:main:76] - sun.misc.Unsafe.theUnsafe: available
+2015-11-25 23:30:34,143 [Slf4JLogger.java:main:71] - sun.misc.Unsafe.copyMemory: available
+2015-11-25 23:30:34,145 [Slf4JLogger.java:main:76] - java.nio.Bits.unaligned: true
+2015-11-25 23:30:34,148 [Slf4JLogger.java:main:71] - Platform: Windows
+2015-11-25 23:30:34,163 [Slf4JLogger.java:main:76] - Java version: 8
+2015-11-25 23:30:34,164 [Slf4JLogger.java:main:76] - -Dio.netty.noUnsafe: false
+2015-11-25 23:30:34,165 [Slf4JLogger.java:main:76] - sun.misc.Unsafe: available
+2015-11-25 23:30:34,179 [Slf4JLogger.java:main:76] - -Dio.netty.noJavassist: false
+2015-11-25 23:30:34,776 [Slf4JLogger.java:main:71] - Javassist: available
+2015-11-25 23:30:34,777 [Slf4JLogger.java:main:76] - -Dio.netty.tmpdir: C:\Users\nazmul\AppData\Local\Temp (java.io.tmpdir)
+2015-11-25 23:30:34,777 [Slf4JLogger.java:main:76] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2015-11-25 23:30:34,779 [Slf4JLogger.java:main:76] - -Dio.netty.noPreferDirect: false
+2015-11-25 23:30:34,888 [Slf4JLogger.java:main:76] - -Dio.netty.noKeySetOptimization: false
+2015-11-25 23:30:34,889 [Slf4JLogger.java:main:76] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-11-25 23:30:35,210 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@548a9f61
+2015-11-25 23:30:35,213 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7c16905e
+2015-11-25 23:30:35,215 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2a5ca609
+2015-11-25 23:30:35,219 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@68be2bc2
+2015-11-25 23:30:35,221 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@675d3402
+2015-11-25 23:30:35,222 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@482f8f11
+2015-11-25 23:30:35,224 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1b604f19
+2015-11-25 23:30:35,226 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4cc0edeb
+2015-11-25 23:30:35,238 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18be83e4
+2015-11-25 23:30:35,783 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numHeapArenas: 8
+2015-11-25 23:30:35,784 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numDirectArenas: 8
+2015-11-25 23:30:35,784 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.pageSize: 8192
+2015-11-25 23:30:35,784 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxOrder: 11
+2015-11-25 23:30:35,784 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.chunkSize: 16777216
+2015-11-25 23:30:35,784 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.tinyCacheSize: 512
+2015-11-25 23:30:35,784 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.smallCacheSize: 256
+2015-11-25 23:30:35,785 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.normalCacheSize: 64
+2015-11-25 23:30:35,786 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-11-25 23:30:35,786 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-11-25 23:30:35,841 [Slf4JLogger.java:vert.x-eventloop-thread-2:71] - -Dio.netty.initialSeedUniquifier: 0xb419a9692e914e2e (took 4 ms)
+2015-11-25 23:30:35,875 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.type: unpooled
+2015-11-25 23:30:35,876 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-11-25 23:30:36,041 [Slf4JLogger.java:vert.x-eventloop-thread-2:86] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-11-25 23:30:36,042 [Slf4JLogger.java:vert.x-eventloop-thread-2:81] - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-11-25 23:30:47,473 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.recycler.maxCapacity.default: 262144
+2015-11-25 23:36:16,028 [Slf4JLogger.java:main:71] - Using SLF4J as the default logging framework
+2015-11-25 23:36:16,035 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.level: simple
+2015-11-25 23:36:16,038 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.maxRecords: 4
+2015-11-25 23:36:16,053 [Slf4JLogger.java:main:76] - -Dio.netty.eventLoopThreads: 8
+2015-11-25 23:36:16,067 [Slf4JLogger.java:main:76] - java.nio.Buffer.address: available
+2015-11-25 23:36:16,068 [Slf4JLogger.java:main:76] - sun.misc.Unsafe.theUnsafe: available
+2015-11-25 23:36:16,068 [Slf4JLogger.java:main:71] - sun.misc.Unsafe.copyMemory: available
+2015-11-25 23:36:16,069 [Slf4JLogger.java:main:76] - java.nio.Bits.unaligned: true
+2015-11-25 23:36:16,069 [Slf4JLogger.java:main:71] - Platform: Windows
+2015-11-25 23:36:16,069 [Slf4JLogger.java:main:76] - Java version: 8
+2015-11-25 23:36:16,070 [Slf4JLogger.java:main:76] - -Dio.netty.noUnsafe: false
+2015-11-25 23:36:16,070 [Slf4JLogger.java:main:76] - sun.misc.Unsafe: available
+2015-11-25 23:36:16,070 [Slf4JLogger.java:main:76] - -Dio.netty.noJavassist: false
+2015-11-25 23:36:16,183 [Slf4JLogger.java:main:71] - Javassist: available
+2015-11-25 23:36:16,183 [Slf4JLogger.java:main:76] - -Dio.netty.tmpdir: C:\Users\nazmul\AppData\Local\Temp (java.io.tmpdir)
+2015-11-25 23:36:16,183 [Slf4JLogger.java:main:76] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2015-11-25 23:36:16,185 [Slf4JLogger.java:main:76] - -Dio.netty.noPreferDirect: false
+2015-11-25 23:36:16,201 [Slf4JLogger.java:main:76] - -Dio.netty.noKeySetOptimization: false
+2015-11-25 23:36:16,201 [Slf4JLogger.java:main:76] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-11-25 23:36:16,235 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@548a9f61
+2015-11-25 23:36:16,236 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7c16905e
+2015-11-25 23:36:16,237 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2a5ca609
+2015-11-25 23:36:16,238 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@68be2bc2
+2015-11-25 23:36:16,239 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@675d3402
+2015-11-25 23:36:16,240 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@482f8f11
+2015-11-25 23:36:16,240 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1b604f19
+2015-11-25 23:36:16,242 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4cc0edeb
+2015-11-25 23:36:16,244 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18be83e4
+2015-11-25 23:36:16,516 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numHeapArenas: 8
+2015-11-25 23:36:16,517 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numDirectArenas: 8
+2015-11-25 23:36:16,517 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.pageSize: 8192
+2015-11-25 23:36:16,517 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxOrder: 11
+2015-11-25 23:36:16,517 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.chunkSize: 16777216
+2015-11-25 23:36:16,517 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.tinyCacheSize: 512
+2015-11-25 23:36:16,517 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.smallCacheSize: 256
+2015-11-25 23:36:16,518 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.normalCacheSize: 64
+2015-11-25 23:36:16,518 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-11-25 23:36:16,519 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-11-25 23:36:16,543 [Slf4JLogger.java:vert.x-eventloop-thread-2:71] - -Dio.netty.initialSeedUniquifier: 0xa00c03bda55beec1 (took 3 ms)
+2015-11-25 23:36:16,578 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.type: unpooled
+2015-11-25 23:36:16,578 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-11-25 23:36:16,694 [Slf4JLogger.java:vert.x-eventloop-thread-2:86] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-11-25 23:36:16,695 [Slf4JLogger.java:vert.x-eventloop-thread-2:81] - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-11-25 23:36:23,633 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.recycler.maxCapacity.default: 262144
+2015-11-25 23:41:54,404 [EasyStatement.java:main:202] - Set value: key1 to column: key at indexes[1]
+2015-11-25 23:42:52,102 [EasyStatement.java:main:202] - Set value: key1 to column: key at indexes[1]
+2015-11-25 23:47:44,598 [EasyStatement.java:main:202] - Set value: key1 to column: key at indexes[1]
+2015-11-25 23:50:20,968 [EasyStatement.java:main:202] - Set value: key1 to column: key at indexes[1]
+2015-11-25 23:51:12,046 [Slf4JLogger.java:main:71] - Using SLF4J as the default logging framework
+2015-11-25 23:51:12,053 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.level: simple
+2015-11-25 23:51:12,055 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.maxRecords: 4
+2015-11-25 23:51:12,068 [Slf4JLogger.java:main:76] - -Dio.netty.eventLoopThreads: 8
+2015-11-25 23:51:12,084 [Slf4JLogger.java:main:76] - java.nio.Buffer.address: available
+2015-11-25 23:51:12,084 [Slf4JLogger.java:main:76] - sun.misc.Unsafe.theUnsafe: available
+2015-11-25 23:51:12,085 [Slf4JLogger.java:main:71] - sun.misc.Unsafe.copyMemory: available
+2015-11-25 23:51:12,085 [Slf4JLogger.java:main:76] - java.nio.Bits.unaligned: true
+2015-11-25 23:51:12,086 [Slf4JLogger.java:main:71] - Platform: Windows
+2015-11-25 23:51:12,086 [Slf4JLogger.java:main:76] - Java version: 8
+2015-11-25 23:51:12,087 [Slf4JLogger.java:main:76] - -Dio.netty.noUnsafe: false
+2015-11-25 23:51:12,087 [Slf4JLogger.java:main:76] - sun.misc.Unsafe: available
+2015-11-25 23:51:12,088 [Slf4JLogger.java:main:76] - -Dio.netty.noJavassist: false
+2015-11-25 23:51:12,204 [Slf4JLogger.java:main:71] - Javassist: available
+2015-11-25 23:51:12,204 [Slf4JLogger.java:main:76] - -Dio.netty.tmpdir: C:\Users\nazmul\AppData\Local\Temp (java.io.tmpdir)
+2015-11-25 23:51:12,205 [Slf4JLogger.java:main:76] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2015-11-25 23:51:12,206 [Slf4JLogger.java:main:76] - -Dio.netty.noPreferDirect: false
+2015-11-25 23:51:12,223 [Slf4JLogger.java:main:76] - -Dio.netty.noKeySetOptimization: false
+2015-11-25 23:51:12,223 [Slf4JLogger.java:main:76] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-11-25 23:51:12,257 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@548a9f61
+2015-11-25 23:51:12,258 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7c16905e
+2015-11-25 23:51:12,260 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2a5ca609
+2015-11-25 23:51:12,261 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@68be2bc2
+2015-11-25 23:51:12,263 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@675d3402
+2015-11-25 23:51:12,264 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@482f8f11
+2015-11-25 23:51:12,266 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1b604f19
+2015-11-25 23:51:12,267 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4cc0edeb
+2015-11-25 23:51:12,269 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18be83e4
+2015-11-25 23:51:12,541 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numHeapArenas: 8
+2015-11-25 23:51:12,541 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numDirectArenas: 8
+2015-11-25 23:51:12,541 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.pageSize: 8192
+2015-11-25 23:51:12,542 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxOrder: 11
+2015-11-25 23:51:12,543 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.chunkSize: 16777216
+2015-11-25 23:51:12,543 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.tinyCacheSize: 512
+2015-11-25 23:51:12,543 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.smallCacheSize: 256
+2015-11-25 23:51:12,544 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.normalCacheSize: 64
+2015-11-25 23:51:12,545 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-11-25 23:51:12,546 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-11-25 23:51:12,571 [Slf4JLogger.java:vert.x-eventloop-thread-2:71] - -Dio.netty.initialSeedUniquifier: 0xaabf14dfdff7e053 (took 4 ms)
+2015-11-25 23:51:12,606 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.type: unpooled
+2015-11-25 23:51:12,606 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-11-25 23:51:12,729 [Slf4JLogger.java:vert.x-eventloop-thread-2:86] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-11-25 23:51:12,730 [Slf4JLogger.java:vert.x-eventloop-thread-2:81] - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-11-25 23:51:23,632 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.recycler.maxCapacity.default: 262144
+2015-11-25 23:51:24,035 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-25 23:51:36,098 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key11 to column: key at indexes[1]
+2015-11-25 23:51:36,099 [License.java:vert.x-eventloop-thread-2:109] - Invalid license for the key:key11
+2015-11-25 23:52:08,355 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-25 23:52:16,890 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-25 23:52:16,896 [License.java:vert.x-eventloop-thread-2:102] - Invalid authentication for the key:key1
+2015-11-25 23:58:13,817 [EasyStatement.java:main:202] - Set value: key2 to column: key at indexes[1]
+2015-11-25 23:58:13,820 [EasyStatement.java:main:219] - Set value: 12345 to column: subscription_date at indexes[2]
+2015-11-25 23:58:13,821 [EasyStatement.java:main:219] - Set value: 12345 to column: start_date at indexes[3]
+2015-11-25 23:58:13,821 [EasyStatement.java:main:219] - Set value: 12345 to column: evolution_period at indexes[4]
+2015-11-25 23:58:13,825 [EasyStatement.java:main:202] - Set value: mac2 to column: mac_address at indexes[5]
+2015-11-26 00:00:46,489 [EasyStatement.java:main:202] - Set value: key2 to column: key at indexes[1]
+2015-11-26 00:00:46,496 [EasyStatement.java:main:219] - Set value: 12345 to column: subscription_date at indexes[2]
+2015-11-26 00:00:46,496 [EasyStatement.java:main:219] - Set value: 12345 to column: start_date at indexes[3]
+2015-11-26 00:00:46,496 [EasyStatement.java:main:219] - Set value: 12345 to column: evolution_period at indexes[4]
+2015-11-26 00:00:46,501 [EasyStatement.java:main:202] - Set value: mac2 to column: mac_address at indexes[5]
+2015-11-26 00:00:46,501 [EasyStatement.java:main:202] - Set value: cpu2 to column: cpu_address at indexes[6]
+2015-11-26 00:00:46,503 [EasyStatement.java:main:202] - Set value: processor2 to column: processor_address at indexes[7]
+2015-11-26 19:19:13,766 [Slf4JLogger.java:main:71] - Using SLF4J as the default logging framework
+2015-11-26 19:19:13,806 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.level: simple
+2015-11-26 19:19:13,826 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.maxRecords: 4
+2015-11-26 19:19:13,866 [Slf4JLogger.java:main:76] - -Dio.netty.eventLoopThreads: 8
+2015-11-26 19:19:13,936 [Slf4JLogger.java:main:76] - java.nio.Buffer.address: available
+2015-11-26 19:19:13,936 [Slf4JLogger.java:main:76] - sun.misc.Unsafe.theUnsafe: available
+2015-11-26 19:19:13,936 [Slf4JLogger.java:main:71] - sun.misc.Unsafe.copyMemory: available
+2015-11-26 19:19:13,936 [Slf4JLogger.java:main:76] - java.nio.Bits.unaligned: true
+2015-11-26 19:19:13,936 [Slf4JLogger.java:main:71] - Platform: Windows
+2015-11-26 19:19:13,956 [Slf4JLogger.java:main:76] - Java version: 8
+2015-11-26 19:19:13,956 [Slf4JLogger.java:main:76] - -Dio.netty.noUnsafe: false
+2015-11-26 19:19:13,956 [Slf4JLogger.java:main:76] - sun.misc.Unsafe: available
+2015-11-26 19:19:13,976 [Slf4JLogger.java:main:76] - -Dio.netty.noJavassist: false
+2015-11-26 19:19:14,276 [Slf4JLogger.java:main:71] - Javassist: available
+2015-11-26 19:19:14,286 [Slf4JLogger.java:main:76] - -Dio.netty.tmpdir: C:\Users\nazmul\AppData\Local\Temp (java.io.tmpdir)
+2015-11-26 19:19:14,286 [Slf4JLogger.java:main:76] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2015-11-26 19:19:14,286 [Slf4JLogger.java:main:76] - -Dio.netty.noPreferDirect: false
+2015-11-26 19:19:14,516 [Slf4JLogger.java:main:76] - -Dio.netty.noKeySetOptimization: false
+2015-11-26 19:19:14,516 [Slf4JLogger.java:main:76] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-11-26 19:19:14,946 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@548a9f61
+2015-11-26 19:19:14,956 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7c16905e
+2015-11-26 19:19:14,956 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2a5ca609
+2015-11-26 19:19:14,956 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@68be2bc2
+2015-11-26 19:19:14,956 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@675d3402
+2015-11-26 19:19:14,956 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@482f8f11
+2015-11-26 19:19:14,966 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1b604f19
+2015-11-26 19:19:14,966 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4cc0edeb
+2015-11-26 19:19:14,966 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18be83e4
+2015-11-26 19:19:15,906 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numHeapArenas: 8
+2015-11-26 19:19:15,906 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numDirectArenas: 8
+2015-11-26 19:19:15,906 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.pageSize: 8192
+2015-11-26 19:19:15,906 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxOrder: 11
+2015-11-26 19:19:15,906 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.chunkSize: 16777216
+2015-11-26 19:19:15,906 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.tinyCacheSize: 512
+2015-11-26 19:19:15,906 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.smallCacheSize: 256
+2015-11-26 19:19:15,906 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.normalCacheSize: 64
+2015-11-26 19:19:15,906 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-11-26 19:19:15,906 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-11-26 19:19:15,956 [Slf4JLogger.java:vert.x-eventloop-thread-2:71] - -Dio.netty.initialSeedUniquifier: 0xb8dec2427e0ac80d (took 17 ms)
+2015-11-26 19:19:15,986 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.type: unpooled
+2015-11-26 19:19:15,986 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-11-26 19:19:16,136 [Slf4JLogger.java:vert.x-eventloop-thread-2:86] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-11-26 19:19:16,136 [Slf4JLogger.java:vert.x-eventloop-thread-2:81] - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-11-26 19:20:02,143 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.recycler.maxCapacity.default: 262144
+2015-11-26 19:35:26,593 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:35:26,593 [License.java:vert.x-eventloop-thread-2:102] - Invalid authentication for the key:key1
+2015-11-26 19:36:11,344 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:36:33,517 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:36:33,517 [License.java:vert.x-eventloop-thread-2:109] - Invalid license for the key:key1
+2015-11-26 19:42:12,512 [Slf4JLogger.java:main:71] - Using SLF4J as the default logging framework
+2015-11-26 19:42:12,522 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.level: simple
+2015-11-26 19:42:12,522 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.maxRecords: 4
+2015-11-26 19:42:12,542 [Slf4JLogger.java:main:76] - -Dio.netty.eventLoopThreads: 8
+2015-11-26 19:42:12,562 [Slf4JLogger.java:main:76] - java.nio.Buffer.address: available
+2015-11-26 19:42:12,562 [Slf4JLogger.java:main:76] - sun.misc.Unsafe.theUnsafe: available
+2015-11-26 19:42:12,562 [Slf4JLogger.java:main:71] - sun.misc.Unsafe.copyMemory: available
+2015-11-26 19:42:12,562 [Slf4JLogger.java:main:76] - java.nio.Bits.unaligned: true
+2015-11-26 19:42:12,562 [Slf4JLogger.java:main:71] - Platform: Windows
+2015-11-26 19:42:12,562 [Slf4JLogger.java:main:76] - Java version: 8
+2015-11-26 19:42:12,562 [Slf4JLogger.java:main:76] - -Dio.netty.noUnsafe: false
+2015-11-26 19:42:12,562 [Slf4JLogger.java:main:76] - sun.misc.Unsafe: available
+2015-11-26 19:42:12,562 [Slf4JLogger.java:main:76] - -Dio.netty.noJavassist: false
+2015-11-26 19:42:12,702 [Slf4JLogger.java:main:71] - Javassist: available
+2015-11-26 19:42:12,702 [Slf4JLogger.java:main:76] - -Dio.netty.tmpdir: C:\Users\nazmul\AppData\Local\Temp (java.io.tmpdir)
+2015-11-26 19:42:12,702 [Slf4JLogger.java:main:76] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2015-11-26 19:42:12,702 [Slf4JLogger.java:main:76] - -Dio.netty.noPreferDirect: false
+2015-11-26 19:42:12,722 [Slf4JLogger.java:main:76] - -Dio.netty.noKeySetOptimization: false
+2015-11-26 19:42:12,722 [Slf4JLogger.java:main:76] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-11-26 19:42:12,752 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@548a9f61
+2015-11-26 19:42:12,762 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7c16905e
+2015-11-26 19:42:12,762 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2a5ca609
+2015-11-26 19:42:12,762 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@68be2bc2
+2015-11-26 19:42:12,762 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@675d3402
+2015-11-26 19:42:12,762 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@482f8f11
+2015-11-26 19:42:12,762 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1b604f19
+2015-11-26 19:42:12,762 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4cc0edeb
+2015-11-26 19:42:12,762 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18be83e4
+2015-11-26 19:42:13,022 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numHeapArenas: 8
+2015-11-26 19:42:13,022 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numDirectArenas: 8
+2015-11-26 19:42:13,022 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.pageSize: 8192
+2015-11-26 19:42:13,022 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxOrder: 11
+2015-11-26 19:42:13,022 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.chunkSize: 16777216
+2015-11-26 19:42:13,022 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.tinyCacheSize: 512
+2015-11-26 19:42:13,022 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.smallCacheSize: 256
+2015-11-26 19:42:13,032 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.normalCacheSize: 64
+2015-11-26 19:42:13,032 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-11-26 19:42:13,032 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-11-26 19:42:13,052 [Slf4JLogger.java:vert.x-eventloop-thread-2:71] - -Dio.netty.initialSeedUniquifier: 0xe6c7ae1a8036940a (took 2 ms)
+2015-11-26 19:42:13,082 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.type: unpooled
+2015-11-26 19:42:13,082 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-11-26 19:42:13,212 [Slf4JLogger.java:vert.x-eventloop-thread-2:86] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-11-26 19:42:13,212 [Slf4JLogger.java:vert.x-eventloop-thread-2:81] - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-11-26 19:42:22,595 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.recycler.maxCapacity.default: 262144
+2015-11-26 19:42:46,839 [Slf4JLogger.java:main:71] - Using SLF4J as the default logging framework
+2015-11-26 19:42:46,849 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.level: simple
+2015-11-26 19:42:46,849 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.maxRecords: 4
+2015-11-26 19:42:46,859 [Slf4JLogger.java:main:76] - -Dio.netty.eventLoopThreads: 8
+2015-11-26 19:42:46,879 [Slf4JLogger.java:main:76] - java.nio.Buffer.address: available
+2015-11-26 19:42:46,879 [Slf4JLogger.java:main:76] - sun.misc.Unsafe.theUnsafe: available
+2015-11-26 19:42:46,879 [Slf4JLogger.java:main:71] - sun.misc.Unsafe.copyMemory: available
+2015-11-26 19:42:46,879 [Slf4JLogger.java:main:76] - java.nio.Bits.unaligned: true
+2015-11-26 19:42:46,879 [Slf4JLogger.java:main:71] - Platform: Windows
+2015-11-26 19:42:46,879 [Slf4JLogger.java:main:76] - Java version: 8
+2015-11-26 19:42:46,879 [Slf4JLogger.java:main:76] - -Dio.netty.noUnsafe: false
+2015-11-26 19:42:46,879 [Slf4JLogger.java:main:76] - sun.misc.Unsafe: available
+2015-11-26 19:42:46,879 [Slf4JLogger.java:main:76] - -Dio.netty.noJavassist: false
+2015-11-26 19:42:46,999 [Slf4JLogger.java:main:71] - Javassist: available
+2015-11-26 19:42:46,999 [Slf4JLogger.java:main:76] - -Dio.netty.tmpdir: C:\Users\nazmul\AppData\Local\Temp (java.io.tmpdir)
+2015-11-26 19:42:46,999 [Slf4JLogger.java:main:76] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2015-11-26 19:42:47,009 [Slf4JLogger.java:main:76] - -Dio.netty.noPreferDirect: false
+2015-11-26 19:42:47,019 [Slf4JLogger.java:main:76] - -Dio.netty.noKeySetOptimization: false
+2015-11-26 19:42:47,019 [Slf4JLogger.java:main:76] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-11-26 19:42:47,059 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@548a9f61
+2015-11-26 19:42:47,059 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7c16905e
+2015-11-26 19:42:47,059 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2a5ca609
+2015-11-26 19:42:47,059 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@68be2bc2
+2015-11-26 19:42:47,059 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@675d3402
+2015-11-26 19:42:47,069 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@482f8f11
+2015-11-26 19:42:47,069 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1b604f19
+2015-11-26 19:42:47,069 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4cc0edeb
+2015-11-26 19:42:47,069 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18be83e4
+2015-11-26 19:42:47,339 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numHeapArenas: 8
+2015-11-26 19:42:47,349 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numDirectArenas: 8
+2015-11-26 19:42:47,349 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.pageSize: 8192
+2015-11-26 19:42:47,349 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxOrder: 11
+2015-11-26 19:42:47,349 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.chunkSize: 16777216
+2015-11-26 19:42:47,349 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.tinyCacheSize: 512
+2015-11-26 19:42:47,349 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.smallCacheSize: 256
+2015-11-26 19:42:47,349 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.normalCacheSize: 64
+2015-11-26 19:42:47,349 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-11-26 19:42:47,349 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-11-26 19:42:47,379 [Slf4JLogger.java:vert.x-eventloop-thread-2:71] - -Dio.netty.initialSeedUniquifier: 0x8090c4541b7e7d69 (took 2 ms)
+2015-11-26 19:42:47,409 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.type: unpooled
+2015-11-26 19:42:47,409 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-11-26 19:42:47,539 [Slf4JLogger.java:vert.x-eventloop-thread-2:86] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-11-26 19:42:47,539 [Slf4JLogger.java:vert.x-eventloop-thread-2:81] - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-11-26 19:42:58,986 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.recycler.maxCapacity.default: 262144
+2015-11-26 19:42:59,336 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:42:59,336 [License.java:vert.x-eventloop-thread-2:109] - Invalid license for the key:key1
+2015-11-26 19:51:10,128 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:51:10,128 [License.java:vert.x-eventloop-thread-2:109] - Invalid license for the key:key1
+2015-11-26 19:51:47,753 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:52:10,401 [Slf4JLogger.java:main:71] - Using SLF4J as the default logging framework
+2015-11-26 19:52:10,411 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.level: simple
+2015-11-26 19:52:10,411 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.maxRecords: 4
+2015-11-26 19:52:10,431 [Slf4JLogger.java:main:76] - -Dio.netty.eventLoopThreads: 8
+2015-11-26 19:52:10,441 [Slf4JLogger.java:main:76] - java.nio.Buffer.address: available
+2015-11-26 19:52:10,441 [Slf4JLogger.java:main:76] - sun.misc.Unsafe.theUnsafe: available
+2015-11-26 19:52:10,441 [Slf4JLogger.java:main:71] - sun.misc.Unsafe.copyMemory: available
+2015-11-26 19:52:10,441 [Slf4JLogger.java:main:76] - java.nio.Bits.unaligned: true
+2015-11-26 19:52:10,441 [Slf4JLogger.java:main:71] - Platform: Windows
+2015-11-26 19:52:10,441 [Slf4JLogger.java:main:76] - Java version: 8
+2015-11-26 19:52:10,441 [Slf4JLogger.java:main:76] - -Dio.netty.noUnsafe: false
+2015-11-26 19:52:10,441 [Slf4JLogger.java:main:76] - sun.misc.Unsafe: available
+2015-11-26 19:52:10,441 [Slf4JLogger.java:main:76] - -Dio.netty.noJavassist: false
+2015-11-26 19:52:10,561 [Slf4JLogger.java:main:71] - Javassist: available
+2015-11-26 19:52:10,561 [Slf4JLogger.java:main:76] - -Dio.netty.tmpdir: C:\Users\nazmul\AppData\Local\Temp (java.io.tmpdir)
+2015-11-26 19:52:10,561 [Slf4JLogger.java:main:76] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2015-11-26 19:52:10,561 [Slf4JLogger.java:main:76] - -Dio.netty.noPreferDirect: false
+2015-11-26 19:52:10,571 [Slf4JLogger.java:main:76] - -Dio.netty.noKeySetOptimization: false
+2015-11-26 19:52:10,571 [Slf4JLogger.java:main:76] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-11-26 19:52:10,611 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@548a9f61
+2015-11-26 19:52:10,611 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7c16905e
+2015-11-26 19:52:10,611 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2a5ca609
+2015-11-26 19:52:10,611 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@68be2bc2
+2015-11-26 19:52:10,611 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@675d3402
+2015-11-26 19:52:10,611 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@482f8f11
+2015-11-26 19:52:10,611 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1b604f19
+2015-11-26 19:52:10,611 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4cc0edeb
+2015-11-26 19:52:10,621 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18be83e4
+2015-11-26 19:52:10,891 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numHeapArenas: 8
+2015-11-26 19:52:10,891 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numDirectArenas: 8
+2015-11-26 19:52:10,891 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.pageSize: 8192
+2015-11-26 19:52:10,891 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxOrder: 11
+2015-11-26 19:52:10,891 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.chunkSize: 16777216
+2015-11-26 19:52:10,891 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.tinyCacheSize: 512
+2015-11-26 19:52:10,891 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.smallCacheSize: 256
+2015-11-26 19:52:10,891 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.normalCacheSize: 64
+2015-11-26 19:52:10,891 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-11-26 19:52:10,891 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-11-26 19:52:10,911 [Slf4JLogger.java:vert.x-eventloop-thread-2:71] - -Dio.netty.initialSeedUniquifier: 0x8718b2561df5728e (took 1 ms)
+2015-11-26 19:52:10,951 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.type: unpooled
+2015-11-26 19:52:10,951 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-11-26 19:52:11,071 [Slf4JLogger.java:vert.x-eventloop-thread-2:86] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-11-26 19:52:11,071 [Slf4JLogger.java:vert.x-eventloop-thread-2:81] - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-11-26 19:52:18,574 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.recycler.maxCapacity.default: 262144
+2015-11-26 19:52:19,064 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:45:59,497 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:49:45,066 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:55:42,939 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:57:45,918 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:57:47,639 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:57:49,329 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:57:51,069 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:57:52,829 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:57:54,569 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:57:56,279 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:57:57,979 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:57:59,659 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:01,369 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:03,049 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:04,761 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:06,461 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:08,181 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:09,861 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:11,561 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:13,221 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:14,931 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:16,651 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:18,351 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:20,021 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:21,736 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:23,416 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:25,226 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:26,936 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:28,626 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:30,386 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:32,126 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:33,856 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:35,576 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:37,256 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:38,946 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:40,666 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:42,336 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:44,026 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:45,706 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:47,406 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:49,146 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:50,846 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:52,576 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:54,456 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:56,246 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:57,978 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:58:59,718 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:01,418 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:03,148 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:04,848 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:06,568 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:08,258 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:09,998 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:11,708 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:13,388 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:15,058 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:16,758 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:18,468 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:20,208 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:21,928 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:23,628 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:25,418 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:27,108 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:28,788 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:30,458 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:32,148 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:33,886 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:35,636 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:37,366 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:39,046 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:40,726 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:42,526 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:44,266 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:45,976 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:47,656 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:49,376 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:51,086 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:52,796 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:54,496 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:56,206 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:57,906 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:59:59,726 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:01,456 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:03,126 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:04,916 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:06,646 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:08,410 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:10,110 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:11,810 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:13,530 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:15,250 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:16,950 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:18,620 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:20,300 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:21,960 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:23,650 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:25,340 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:27,020 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:28,720 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:30,420 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:32,090 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:33,810 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:35,570 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:37,360 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:39,060 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:40,792 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:42,492 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:44,220 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:45,940 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:47,640 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:49,310 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:51,040 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:52,830 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:54,550 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:56,280 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:57,960 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:00:59,640 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:01,350 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:03,050 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:04,740 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:06,440 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:08,120 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:09,790 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:11,520 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:13,240 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:14,930 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:16,610 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:18,300 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:20,075 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:21,765 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:23,485 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:25,185 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:26,885 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:28,665 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:30,405 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:32,197 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:33,987 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:35,717 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:37,397 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:39,107 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:40,827 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:42,527 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:10:06,970 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:28:50,092 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:33:20,702 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:37:31,024 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:39:06,500 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:43:26,365 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:48:48,593 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:50:38,850 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:06:19,559 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:06:25,376 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:06:49,603 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:07:57,139 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:17:11,859 [EasyStatement.java:main:202] - Set value: key2 to column: key at indexes[1]
+2015-11-26 19:17:17,203 [EasyStatement.java:main:202] - Set value: key2 to column: key at indexes[1]
+2015-11-26 19:17:18,116 [EasyStatement.java:main:210] - Set value: false to column: is_used at indexes[2]
+2015-11-26 19:17:20,704 [EasyStatement.java:main:202] - Set value: key2 to column: key at indexes[1]
+2015-11-26 19:17:20,884 [EasyStatement.java:main:227] - Set value: 1448543839 to column: subscription_date at indexes[2]
+2015-11-26 19:17:21,342 [EasyStatement.java:main:227] - Set value: 1448543839 to column: start_date at indexes[3]
+2015-11-26 19:17:21,499 [EasyStatement.java:main:227] - Set value: 1480079839 to column: evolution_period at indexes[4]
+2015-11-26 19:17:21,693 [EasyStatement.java:main:202] - Set value: mac2 to column: mac_address at indexes[5]
+2015-11-26 19:17:21,989 [EasyStatement.java:main:202] - Set value: cpu2 to column: cpu_address at indexes[6]
+2015-11-26 19:17:22,373 [EasyStatement.java:main:202] - Set value: processor2 to column: processor_address at indexes[7]
+2015-11-26 19:18:16,527 [EasyStatement.java:main:202] - Set value: key2 to column: key at indexes[1]
+2015-11-26 19:18:24,386 [License.java:main:102] - Invalid authentication for the key:key2
+2015-11-26 19:18:32,897 [EasyStatement.java:main:202] - Set value: key2 to column: key at indexes[1]
+2015-11-26 19:18:32,899 [License.java:main:102] - Invalid authentication for the key:key2
+2015-11-26 19:18:56,659 [EasyStatement.java:main:202] - Set value: key5 to column: key at indexes[1]
+2015-11-26 19:19:09,451 [EasyStatement.java:main:202] - Set value: key5 to column: key at indexes[1]
+2015-11-26 19:19:10,108 [EasyStatement.java:main:210] - Set value: false to column: is_used at indexes[2]
+2015-11-26 19:19:11,788 [License.java:main:140] - Invalid license for the key:key5
+2015-11-26 19:19:19,638 [EasyStatement.java:main:202] - Set value: key5 to column: key at indexes[1]
+2015-11-26 19:19:19,648 [EasyStatement.java:main:202] - Set value: key5 to column: key at indexes[1]
+2015-11-26 19:19:19,648 [EasyStatement.java:main:210] - Set value: false to column: is_used at indexes[2]
+2015-11-26 19:19:19,648 [License.java:main:140] - Invalid license for the key:key5
+2015-11-26 19:34:41,695 [EasyStatement.java:main:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:34:44,486 [EasyStatement.java:main:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:34:45,101 [EasyStatement.java:main:219] - Set value: false to column: is_used at indexes[2]
+2015-11-26 19:34:47,769 [EasyStatement.java:main:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:34:47,972 [EasyStatement.java:main:236] - Set value: 1448544887 to column: subscription_date at indexes[2]
+2015-11-26 19:34:48,163 [EasyStatement.java:main:236] - Set value: 1448544887 to column: start_date at indexes[3]
+2015-11-26 19:34:48,326 [EasyStatement.java:main:236] - Set value: 1480080887 to column: evolution_period at indexes[4]
+2015-11-26 19:34:48,511 [EasyStatement.java:main:202] - Set value: mac22 to column: mac_address at indexes[5]
+2015-11-26 19:34:48,673 [EasyStatement.java:main:202] - Set value: cpu22 to column: cpu_address at indexes[6]
+2015-11-26 19:34:48,847 [EasyStatement.java:main:202] - Set value: processor22 to column: processor_address at indexes[7]
+2015-11-26 19:34:50,839 [EasyStatement.java:main:219] - Set value: true to column: is_used at indexes[1]
+2015-11-26 19:36:20,950 [EasyStatement.java:main:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:36:23,535 [EasyStatement.java:main:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:36:23,736 [EasyStatement.java:main:219] - Set value: false to column: is_used at indexes[2]
+2015-11-26 19:36:25,661 [EasyStatement.java:main:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:36:25,821 [EasyStatement.java:main:236] - Set value: 1448544984 to column: subscription_date at indexes[2]
+2015-11-26 19:36:26,010 [EasyStatement.java:main:236] - Set value: 1448544984 to column: start_date at indexes[3]
+2015-11-26 19:36:26,176 [EasyStatement.java:main:236] - Set value: 1480080984 to column: evolution_period at indexes[4]
+2015-11-26 19:36:26,364 [EasyStatement.java:main:202] - Set value: mac22 to column: mac_address at indexes[5]
+2015-11-26 19:36:26,623 [EasyStatement.java:main:202] - Set value: cpu22 to column: cpu_address at indexes[6]
+2015-11-26 19:36:27,044 [EasyStatement.java:main:202] - Set value: processor22 to column: processor_address at indexes[7]
+2015-11-26 19:36:29,845 [EasyStatement.java:main:219] - Set value: true to column: is_used at indexes[1]
+2015-11-26 19:36:30,361 [EasyStatement.java:main:236] - Set value: 1448544984 to column: modified_on at indexes[2]
+2015-11-26 19:36:30,594 [EasyStatement.java:main:202] - Set value: key1 to column: key at indexes[3]
+2015-11-26 19:36:38,880 [EasyStatement.java:main:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 19:54:13,597 [Slf4JLogger.java:main:71] - Using SLF4J as the default logging framework
+2015-11-26 19:54:13,620 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.level: simple
+2015-11-26 19:54:13,629 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.maxRecords: 4
+2015-11-26 19:54:13,781 [Slf4JLogger.java:main:76] - -Dio.netty.eventLoopThreads: 8
+2015-11-26 19:54:13,861 [Slf4JLogger.java:main:76] - java.nio.Buffer.address: available
+2015-11-26 19:54:13,862 [Slf4JLogger.java:main:76] - sun.misc.Unsafe.theUnsafe: available
+2015-11-26 19:54:13,864 [Slf4JLogger.java:main:71] - sun.misc.Unsafe.copyMemory: available
+2015-11-26 19:54:13,865 [Slf4JLogger.java:main:76] - java.nio.Bits.unaligned: true
+2015-11-26 19:54:13,866 [Slf4JLogger.java:main:71] - Platform: Windows
+2015-11-26 19:54:13,880 [Slf4JLogger.java:main:76] - Java version: 8
+2015-11-26 19:54:13,881 [Slf4JLogger.java:main:76] - -Dio.netty.noUnsafe: false
+2015-11-26 19:54:13,881 [Slf4JLogger.java:main:76] - sun.misc.Unsafe: available
+2015-11-26 19:54:13,883 [Slf4JLogger.java:main:76] - -Dio.netty.noJavassist: false
+2015-11-26 19:54:14,380 [Slf4JLogger.java:main:71] - Javassist: available
+2015-11-26 19:54:14,381 [Slf4JLogger.java:main:76] - -Dio.netty.tmpdir: C:\Users\nazmul\AppData\Local\Temp (java.io.tmpdir)
+2015-11-26 19:54:14,383 [Slf4JLogger.java:main:76] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2015-11-26 19:54:14,389 [Slf4JLogger.java:main:76] - -Dio.netty.noPreferDirect: false
+2015-11-26 19:54:14,533 [Slf4JLogger.java:main:76] - -Dio.netty.noKeySetOptimization: false
+2015-11-26 19:54:14,536 [Slf4JLogger.java:main:76] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-11-26 19:54:14,746 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@548a9f61
+2015-11-26 19:54:14,749 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7c16905e
+2015-11-26 19:54:14,752 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2a5ca609
+2015-11-26 19:54:14,754 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@68be2bc2
+2015-11-26 19:54:14,759 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@675d3402
+2015-11-26 19:54:14,761 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@482f8f11
+2015-11-26 19:54:14,763 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1b604f19
+2015-11-26 19:54:14,765 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4cc0edeb
+2015-11-26 19:54:14,774 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18be83e4
+2015-11-26 19:54:15,874 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numHeapArenas: 8
+2015-11-26 19:54:15,875 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numDirectArenas: 8
+2015-11-26 19:54:15,876 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.pageSize: 8192
+2015-11-26 19:54:15,877 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxOrder: 11
+2015-11-26 19:54:15,881 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.chunkSize: 16777216
+2015-11-26 19:54:15,882 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.tinyCacheSize: 512
+2015-11-26 19:54:15,888 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.smallCacheSize: 256
+2015-11-26 19:54:15,888 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.normalCacheSize: 64
+2015-11-26 19:54:15,889 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-11-26 19:54:15,890 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-11-26 19:54:15,982 [Slf4JLogger.java:vert.x-eventloop-thread-2:71] - -Dio.netty.initialSeedUniquifier: 0xcb5f6745c1540b8e (took 12 ms)
+2015-11-26 19:54:16,152 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.type: unpooled
+2015-11-26 19:54:16,153 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-11-26 19:54:16,615 [Slf4JLogger.java:vert.x-eventloop-thread-2:86] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-11-26 19:54:16,617 [Slf4JLogger.java:vert.x-eventloop-thread-2:81] - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-11-26 19:54:34,735 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.recycler.maxCapacity.default: 262144
+2015-11-26 20:01:55,962 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:55,984 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:55,990 [EasyStatement.java:vert.x-eventloop-thread-2:219] - Set value: false to column: is_used at indexes[2]
+2015-11-26 20:01:56,022 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[1]
+2015-11-26 20:01:56,023 [EasyStatement.java:vert.x-eventloop-thread-2:236] - Set value: 1448546515 to column: subscription_date at indexes[2]
+2015-11-26 20:01:56,024 [EasyStatement.java:vert.x-eventloop-thread-2:236] - Set value: 1448546515 to column: start_date at indexes[3]
+2015-11-26 20:01:56,025 [EasyStatement.java:vert.x-eventloop-thread-2:236] - Set value: 1480082515 to column: evolution_period at indexes[4]
+2015-11-26 20:01:56,025 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: null to column: mac_address at indexes[5]
+2015-11-26 20:01:56,026 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: .24TV2S1.CN486431BL0021.0NFVTW to column: cpu_address at indexes[6]
+2015-11-26 20:01:56,027 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: BFEBFBFF000206A7 to column: processor_address at indexes[7]
+2015-11-26 20:01:56,117 [EasyStatement.java:vert.x-eventloop-thread-2:219] - Set value: true to column: is_used at indexes[1]
+2015-11-26 20:01:56,118 [EasyStatement.java:vert.x-eventloop-thread-2:236] - Set value: 1448546515 to column: modified_on at indexes[2]
+2015-11-26 20:01:56,118 [EasyStatement.java:vert.x-eventloop-thread-2:202] - Set value: key1 to column: key at indexes[3]

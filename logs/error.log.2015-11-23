@@ -1,0 +1,44 @@
+2015-11-23 23:42:56,465 [Slf4JLogger.java:main:71] - Using SLF4J as the default logging framework
+2015-11-23 23:42:56,522 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.level: simple
+2015-11-23 23:42:56,532 [Slf4JLogger.java:main:81] - -Dio.netty.leakDetection.maxRecords: 4
+2015-11-23 23:42:56,578 [Slf4JLogger.java:main:76] - -Dio.netty.eventLoopThreads: 8
+2015-11-23 23:42:56,748 [Slf4JLogger.java:main:76] - java.nio.Buffer.address: available
+2015-11-23 23:42:56,750 [Slf4JLogger.java:main:76] - sun.misc.Unsafe.theUnsafe: available
+2015-11-23 23:42:56,751 [Slf4JLogger.java:main:71] - sun.misc.Unsafe.copyMemory: available
+2015-11-23 23:42:56,753 [Slf4JLogger.java:main:76] - java.nio.Bits.unaligned: true
+2015-11-23 23:42:56,754 [Slf4JLogger.java:main:71] - Platform: Windows
+2015-11-23 23:42:56,789 [Slf4JLogger.java:main:76] - Java version: 8
+2015-11-23 23:42:56,790 [Slf4JLogger.java:main:76] - -Dio.netty.noUnsafe: false
+2015-11-23 23:42:56,790 [Slf4JLogger.java:main:76] - sun.misc.Unsafe: available
+2015-11-23 23:42:56,794 [Slf4JLogger.java:main:76] - -Dio.netty.noJavassist: false
+2015-11-23 23:42:57,159 [Slf4JLogger.java:main:71] - Javassist: available
+2015-11-23 23:42:57,160 [Slf4JLogger.java:main:76] - -Dio.netty.tmpdir: C:\Users\nazmul\AppData\Local\Temp (java.io.tmpdir)
+2015-11-23 23:42:57,170 [Slf4JLogger.java:main:76] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2015-11-23 23:42:57,172 [Slf4JLogger.java:main:76] - -Dio.netty.noPreferDirect: false
+2015-11-23 23:42:57,304 [Slf4JLogger.java:main:76] - -Dio.netty.noKeySetOptimization: false
+2015-11-23 23:42:57,305 [Slf4JLogger.java:main:76] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2015-11-23 23:42:57,623 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@548a9f61
+2015-11-23 23:42:57,625 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7c16905e
+2015-11-23 23:42:57,627 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2a5ca609
+2015-11-23 23:42:57,628 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@68be2bc2
+2015-11-23 23:42:57,629 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@675d3402
+2015-11-23 23:42:57,630 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@482f8f11
+2015-11-23 23:42:57,631 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1b604f19
+2015-11-23 23:42:57,632 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4cc0edeb
+2015-11-23 23:42:57,646 [Slf4JLogger.java:main:46] - Instrumented an optimized java.util.Set into: sun.nio.ch.WindowsSelectorImpl@18be83e4
+2015-11-23 23:42:58,267 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numHeapArenas: 8
+2015-11-23 23:42:58,268 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.numDirectArenas: 8
+2015-11-23 23:42:58,268 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.pageSize: 8192
+2015-11-23 23:42:58,268 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxOrder: 11
+2015-11-23 23:42:58,270 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.chunkSize: 16777216
+2015-11-23 23:42:58,271 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.tinyCacheSize: 512
+2015-11-23 23:42:58,272 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.smallCacheSize: 256
+2015-11-23 23:42:58,273 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.normalCacheSize: 64
+2015-11-23 23:42:58,273 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2015-11-23 23:42:58,273 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2015-11-23 23:42:58,307 [Slf4JLogger.java:vert.x-eventloop-thread-2:71] - -Dio.netty.initialSeedUniquifier: 0x4cde55b8e028944f (took 1 ms)
+2015-11-23 23:42:58,347 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.allocator.type: unpooled
+2015-11-23 23:42:58,348 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.threadLocalDirectBufferSize: 65536
+2015-11-23 23:42:58,488 [Slf4JLogger.java:vert.x-eventloop-thread-2:86] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2015-11-23 23:42:58,489 [Slf4JLogger.java:vert.x-eventloop-thread-2:81] - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2015-11-23 23:43:13,967 [Slf4JLogger.java:vert.x-eventloop-thread-2:76] - -Dio.netty.recycler.maxCapacity.default: 262144
