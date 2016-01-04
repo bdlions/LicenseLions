@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import org.bdlions.bean.LicenseInfo;
 import org.bdlions.bean.LicenseKey;
-import org.bdlions.constant.ResponseCode;
+import org.bdlions.constants.ResponseCodes;
 import org.bdlions.db.Database;
 import org.bdlions.db.query.QueryField;
 import org.bdlions.db.query.QueryManager;
@@ -47,7 +47,7 @@ public class License {
             {
                 LicenseKey licenseKey = new LicenseKey();
                 licenseKey.setKey(rs.getString(QueryField.KEY));
-                licenseKey.setCreatedOn(rs.getInt(QueryField.CREATED_ON));
+                licenseKey.setCreatedOn(DateUtils.getUnixToHuman(rs.getInt(QueryField.CREATED_ON)));
                 licenseKeys.add(licenseKey);
             }
         }
@@ -62,7 +62,7 @@ public class License {
      * @throws SQLException, sql exception
      * @throws EvolutionPeriodExpirationException, evolution period exception
      */
-    public String isValidLicense(LicenseInfo licenseInfo) throws DBSetupException, SQLException, EvolutionPeriodExpirationException
+    public int isValidLicense(LicenseInfo licenseInfo) throws DBSetupException, SQLException, EvolutionPeriodExpirationException
     {
         try (EasyStatement stmt = new EasyStatement(Database.getInstance().getConnection(), QueryManager.GET_LICENSE_INFO);){
             stmt.setString(QueryField.KEY, licenseInfo.getKey());
@@ -83,12 +83,12 @@ public class License {
                 String processorAddress = rs.getString(QueryField.PROCESSOR_ADDRESS);
                 if(macAddress.equals(licenseInfo.getMacAddress()) || cpuAddress.equals(licenseInfo.getCpuAddress()) || processorAddress.equals(licenseInfo.getProcessorAddress())) 
                 {
-                    return ResponseCode.SUCCESS;
+                    return ResponseCodes.SUCCESS;
                 }
                 else
                 {
                     logger.error("Invalid authentication for the key:"+licenseInfo.getKey());
-                    return ResponseCode.ERROR_CODE_UNAUTHENTIC_REQUEST;
+                    return ResponseCodes.ERROR_CODE_UNAUTHENTIC_REQUEST;
                 }
             }
         }
@@ -118,12 +118,12 @@ public class License {
                     stmt3.setString(QueryField.KEY, licenseInfo.getKey());
                     stmt3.executeUpdate();
                 }
-                return ResponseCode.SUCCESS;
+                return ResponseCodes.SUCCESS;
             }
             else
             {
                 logger.error("Invalid license for the key:"+licenseInfo.getKey());
-                return ResponseCode.ERROR_CODE_INVALID_LICENSE_KEY;
+                return ResponseCodes.ERROR_CODE_INVALID_LICENSE_KEY;
             }
         }
     }

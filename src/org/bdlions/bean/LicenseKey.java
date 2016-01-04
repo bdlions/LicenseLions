@@ -7,8 +7,8 @@ package org.bdlions.bean;
 public class LicenseKey {
     private String key;
     private Boolean isUsed;
-    private int createdOn;
-    private int modifiedOn;
+    private String createdOn;
+    private String modifiedOn;
     public LicenseKey()
     {
     
@@ -22,11 +22,11 @@ public class LicenseKey {
         this.key = key;
     }
 
-    public int getCreatedOn() {
+    public String getCreatedOn() {
         return createdOn;
     }
 
-    public void setCreatedOn(int createdOn) {
+    public void setCreatedOn(String createdOn) {
         this.createdOn = createdOn;
     }
 
@@ -38,11 +38,11 @@ public class LicenseKey {
         this.isUsed = isUsed;
     }
 
-    public int getModifiedOn() {
+    public String getModifiedOn() {
         return modifiedOn;
     }
 
-    public void setModifiedOn(int modifiedOn) {
+    public void setModifiedOn(String modifiedOn) {
         this.modifiedOn = modifiedOn;
     }
     

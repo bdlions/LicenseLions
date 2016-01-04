@@ -19,6 +19,10 @@ public class ServerExecutor {
         VertxOptions options = new VertxOptions(); 
         //server execution time
         options.setMaxEventLoopExecuteTime(Long.MAX_VALUE);
+        
+        Vertx APIManageVerticle = Vertx.vertx();
+        APIManageVerticle.deployVerticle(new APIManageServer());
+        
         Vertx authVerticle = Vertx.vertx();
         authVerticle.deployVerticle(new LicenseServer());
         

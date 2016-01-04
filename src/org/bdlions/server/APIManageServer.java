@@ -13,10 +13,14 @@ import io.vertx.ext.web.RoutingContext;
 import io.vertx.ext.web.handler.BodyHandler;
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.List;
 import org.bdlions.bean.LicenseInfo;
+import org.bdlions.bean.LicenseKey;
+import org.bdlions.constants.ResponseCodes;
+import org.bdlions.db.APIManager;
 import org.bdlions.db.Database;
-import org.bdlions.db.LicenseManager;
 import org.bdlions.exceptions.DBSetupException;
+import org.bdlions.response.ResultEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,9 +28,9 @@ import org.slf4j.LoggerFactory;
  *
  * @author nazmul hasan
  */
-public class LicenseServer extends AbstractVerticle {
+public class APIManageServer extends AbstractVerticle {
     final static Logger logger = LoggerFactory.getLogger(AbstractVerticle.class);
-    private final int SERVER_PORT = 6060;
+    private final int SERVER_PORT = 7070;
     
     @Override
     public void start() {
@@ -36,28 +40,6 @@ public class LicenseServer extends AbstractVerticle {
         HttpServer server = vertx.createHttpServer();
         Router router = Router.router(vertx);
 
-        router.route("/isvalidlicense*").handler(BodyHandler.create());
-        router.post("/isvalidlicense").handler((RoutingContext routingContext) -> {
-            
-            String license = routingContext.request().getParam("license");
-            String motherboard = routingContext.request().getParam("motherboard");
-            String processor = routingContext.request().getParam("processor");
-            String mac = routingContext.request().getParam("mac");
-            
-            LicenseInfo licenseInfo = new LicenseInfo();
-            licenseInfo.setKey(license);
-            licenseInfo.setMacAddress(mac);
-            licenseInfo.setProcessorAddress(processor);
-            licenseInfo.setCpuAddress(motherboard);
-            
-            LicenseManager licenseManager = new LicenseManager();
-            int responseCode = licenseManager.isValidLicense(licenseInfo);
-            
-            HttpServerResponse response = routingContext.response();
-            response.end(""+responseCode);
-        });
-        
-        
         //this is a sample function, this will not go into production
         router.route("/").handler((RoutingContext routingContext) -> {
             HttpServerResponse response = routingContext.response();
@@ -97,6 +79,58 @@ public class LicenseServer extends AbstractVerticle {
             HttpServerResponse response = routingContext.response();
             response.end("Param1: " + param1);
         });
+        
+        
+        router.route("/getalllicensekeys*").handler(BodyHandler.create());
+        router.post("/getalllicensekeys").handler((RoutingContext routingContext) -> {
+            
+            //String userName = routingContext.request().getParam("username");
+            //String password = routingContext.request().getParam("password");
+            //String limit = routingContext.request().getParam("limit");
+            //String offset = routingContext.request().getParam("offset");
+            APIManager apiManager = new APIManager();
+            List<LicenseKey> licenseKeyList = apiManager.getAllLicesneKeys();
+            ResultEvent resultEvent = new ResultEvent();
+            resultEvent.setResponseCode(ResponseCodes.SUCCESS);
+            resultEvent.setResult(licenseKeyList);
+            
+            HttpServerResponse response = routingContext.response();
+            response.end(resultEvent.toString());
+        });
+        
+        router.route("/createlicensekey*").handler(BodyHandler.create());
+        router.post("/createlicensekey").handler((RoutingContext routingContext) -> {
+            
+            String key = routingContext.request().getParam("key");
+            
+            APIManager apiManager = new APIManager();
+            LicenseKey licenseKey = new LicenseKey();
+            licenseKey.setKey(key);
+            apiManager.createLicenseKey(licenseKey);
+            ResultEvent resultEvent = new ResultEvent();
+            resultEvent.setResponseCode(ResponseCodes.SUCCESS);
+            
+            HttpServerResponse response = routingContext.response();
+            response.end(resultEvent.toString());
+        });
+        
+        router.route("/getalllicenses*").handler(BodyHandler.create());
+        router.post("/getalllicenses").handler((RoutingContext routingContext) -> {
+            
+            //String userName = routingContext.request().getParam("username");
+            //String password = routingContext.request().getParam("password");
+            //String limit = routingContext.request().getParam("limit");
+            //String offset = routingContext.request().getParam("offset");
+            APIManager apiManager = new APIManager();
+            List<LicenseInfo> licenseList = apiManager.getAllLicesnes();
+            ResultEvent resultEvent = new ResultEvent();
+            resultEvent.setResponseCode(ResponseCodes.SUCCESS);
+            resultEvent.setResult(licenseList);
+            
+            HttpServerResponse response = routingContext.response();
+            response.end(resultEvent.toString());
+        });
+        
         
         server.requestHandler(router::accept).listen(SERVER_PORT);
     }

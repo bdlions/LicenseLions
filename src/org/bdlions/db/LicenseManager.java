@@ -8,7 +8,7 @@ package org.bdlions.db;
 import java.sql.SQLException;
 import org.bdlions.bean.LicenseInfo;
 import org.bdlions.bean.LicenseKey;
-import org.bdlions.constant.ResponseCode;
+import org.bdlions.constants.ResponseCodes;
 import org.bdlions.db.query.helper.EasyStatement;
 import org.bdlions.db.repositories.License;
 import org.bdlions.exceptions.DBSetupException;
@@ -54,7 +54,7 @@ public class LicenseManager {
      * @param licenseInfo, license Info
      * @return String, response code
      */
-    public String isValidLicense(LicenseInfo licenseInfo)
+    public int isValidLicense(LicenseInfo licenseInfo)
     {
         
         try 
@@ -64,11 +64,11 @@ public class LicenseManager {
         catch(EvolutionPeriodExpirationException epex)
         {
             logger.error(epex.getMessage());
-            return ResponseCode.ERROR_CODE_EVOLUTION_PERIOD_EXPIRED_EXCEPTION;
+            return ResponseCodes.ERROR_CODE_EVOLUTION_PERIOD_EXPIRED_EXCEPTION;
         }
         catch (SQLException | DBSetupException ex) {
             logger.error(ex.getMessage());
-            return ResponseCode.ERROR_CODE_DB_EXCEPTION;
+            return ResponseCodes.ERROR_CODE_DB_EXCEPTION;
         }
     }
     

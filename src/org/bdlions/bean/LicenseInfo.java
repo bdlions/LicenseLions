@@ -6,9 +6,9 @@ package org.bdlions.bean;
  */
 public class LicenseInfo {
     private String key;
-    private int subscriptionDate;
-    private int startDate;
-    private int evolutionPeriod;
+    private String subscriptionDate;
+    private String startDate;
+    private String evolutionPeriod;
     private String macAddress;
     private String cpuAddress;
     private String processorAddress;
@@ -25,27 +25,27 @@ public class LicenseInfo {
         this.key = key;
     }
 
-    public int getSubscriptionDate() {
+    public String getSubscriptionDate() {
         return subscriptionDate;
     }
 
-    public void setSubscriptionDate(int subscriptionDate) {
+    public void setSubscriptionDate(String subscriptionDate) {
         this.subscriptionDate = subscriptionDate;
     }
 
-    public int getStartDate() {
+    public String getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(int startDate) {
+    public void setStartDate(String startDate) {
         this.startDate = startDate;
     }
 
-    public int getEvolutionPeriod() {
+    public String getEvolutionPeriod() {
         return evolutionPeriod;
     }
 
-    public void setEvolutionPeriod(int evolutionPeriod) {
+    public void setEvolutionPeriod(String evolutionPeriod) {
         this.evolutionPeriod = evolutionPeriod;
     }
 
