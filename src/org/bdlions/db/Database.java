@@ -107,14 +107,14 @@ public class Database {
             statement.executeUpdate(MessageFormat.format(DbSetupQueryProvider.get("db.use"), _dbName));
             
             //create tables
-            statement.executeUpdate(DbSetupQueryProvider.get("db.table.license_keys"));
+            statement.executeUpdate(DbSetupQueryProvider.get("db.table.license_serial_numbers"));
             statement.executeUpdate(DbSetupQueryProvider.get("db.table.licenses"));
             
             //create relations
             statement.executeUpdate(DbSetupQueryProvider.get("db.rel.licenses"));
             
             //insert data
-            statement.executeUpdate(DbSetupQueryProvider.get("db.defaultData.license_keys"));
+            statement.executeUpdate(DbSetupQueryProvider.get("db.defaultData.license_serial_numbers"));
             statement.executeUpdate(DbSetupQueryProvider.get("db.defaultData.licenses"));
         }
     }

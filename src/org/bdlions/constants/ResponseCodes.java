@@ -17,4 +17,5 @@ public class ResponseCodes {
     public static final int ERROR_CODE_UNAUTHENTIC_REQUEST = 5003;
     public static final int ERROR_CODE_DB_EXCEPTION = 5004;
     public static final int ERROR_CODE_SERVER_EXCEPTION = 5005;
+    public static final int ERROR_CODE_INVALID_SEED = 5006;
 }

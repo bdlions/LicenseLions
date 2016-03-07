@@ -5,17 +5,44 @@ package org.bdlions.bean;
  * @author nazmul hasan
  */
 public class LicenseInfo {
-    private String key;
+    private String serialNumber;
     private String subscriptionDate;
     private String startDate;
     private String evolutionPeriod;
-    private String macAddress;
-    private String cpuAddress;
-    private String processorAddress;
+    private int seed;
+    private String mac;
+    private String key;
+    
     public LicenseInfo()
     {
-    
+        
     }
+
+    public String getSerialNumber() {
+        return serialNumber;
+    }
+
+    public void setSerialNumber(String serialNumber) {
+        this.serialNumber = serialNumber;
+    }
+
+    public int getSeed() {
+        return seed;
+    }
+
+    public void setSeed(int seed) {
+        this.seed = seed;
+    }
+
+    public String getMac() {
+        return mac;
+    }
+
+    public void setMac(String mac) {
+        this.mac = mac;
+    }
+    
+    
 
     public String getKey() {
         return key;
@@ -48,29 +75,4 @@ public class LicenseInfo {
     public void setEvolutionPeriod(String evolutionPeriod) {
         this.evolutionPeriod = evolutionPeriod;
     }
-
-    public String getMacAddress() {
-        return macAddress;
-    }
-
-    public void setMacAddress(String macAddress) {
-        this.macAddress = macAddress;
-    }
-
-    public String getCpuAddress() {
-        return cpuAddress;
-    }
-
-    public void setCpuAddress(String cpuAddress) {
-        this.cpuAddress = cpuAddress;
-    }
-
-    public String getProcessorAddress() {
-        return processorAddress;
-    }
-
-    public void setProcessorAddress(String processorAddress) {
-        this.processorAddress = processorAddress;
-    }
-    
 }

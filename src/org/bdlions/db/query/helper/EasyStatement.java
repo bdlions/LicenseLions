@@ -199,7 +199,7 @@ public class EasyStatement implements Statement {
         int[] indexes = getIndexes(name);
         for (int i = 0; i < indexes.length; i++) {
             statement.setString(indexes[i], value);
-            logger.debug("Set value: {} to column: {} at indexes[{}]", new Object[]{value, name, indexes[i]});
+            //logger.debug("Set value: {} to column: {} at indexes[{}]", new Object[]{value, name, indexes[i]});
         }
     }
     
@@ -216,7 +216,7 @@ public class EasyStatement implements Statement {
         int[] indexes = getIndexes(name);
         for (int i = 0; i < indexes.length; i++) {
             statement.setBoolean(indexes[i], value);
-            logger.debug("Set value: {} to column: {} at indexes[{}]", new Object[]{value, name, indexes[i]});
+            //logger.debug("Set value: {} to column: {} at indexes[{}]", new Object[]{value, name, indexes[i]});
         }
     }
 
@@ -233,7 +233,7 @@ public class EasyStatement implements Statement {
         int[] indexes = getIndexes(name);
         for (int i = 0; i < indexes.length; i++) {
             statement.setInt(indexes[i], value);
-            logger.debug("Set value: {} to column: {} at indexes[{}]", new Object[]{value, name, indexes[i]});
+            //logger.debug("Set value: {} to column: {} at indexes[{}]", new Object[]{value, name, indexes[i]});
         }
     }
 

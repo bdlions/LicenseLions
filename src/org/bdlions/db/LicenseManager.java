@@ -1,13 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package org.bdlions.db;
 
 import java.sql.SQLException;
 import org.bdlions.bean.LicenseInfo;
-import org.bdlions.bean.LicenseKey;
 import org.bdlions.constants.ResponseCodes;
 import org.bdlions.db.query.helper.EasyStatement;
 import org.bdlions.db.repositories.License;
@@ -26,29 +20,7 @@ public class LicenseManager {
     {
         license = new License();
     }
-    
-    public void getAllLicesneKeys()
-    {
-        try 
-        {
-            license.getAllLicenseKeys();
-        }
-        catch (SQLException | DBSetupException ex) {
-            logger.error(ex.getMessage());
-        }
-    }
-    
-    public void createLicenseKey(LicenseKey licenseKey)
-    {
-        try 
-        {
-            license.createLicenseKey(licenseKey);
-        }
-        catch (SQLException | DBSetupException ex) {
-            logger.error(ex.getMessage());
-        }
-    }
-    
+   
     /**
      * This method will validate license
      * @param licenseInfo, license Info
@@ -70,20 +42,5 @@ public class LicenseManager {
             logger.error(ex.getMessage());
             return ResponseCodes.ERROR_CODE_DB_EXCEPTION;
         }
-    }
-    
-//    public static void main(String args[])
-//    {
-//        LicenseInfo licenseInfo = new LicenseInfo();
-//        licenseInfo.setKey("key1");
-//        licenseInfo.setEvolutionPeriod(1469912345);
-//        licenseInfo.setStartDate(1443312345);
-//        licenseInfo.setStartDate(1442212345);
-//        licenseInfo.setMacAddress("mac22");
-//        licenseInfo.setCpuAddress("cpu22");
-//        licenseInfo.setProcessorAddress("processor22");
-//        
-//        LicenseManager licenseManager = new LicenseManager();
-//        licenseManager.isValidLicense(licenseInfo);
-//    }
+    }   
 }

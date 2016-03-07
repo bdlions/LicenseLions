@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package org.bdlions.server;
 
 import io.vertx.core.AbstractVerticle;
@@ -15,7 +10,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 import org.bdlions.bean.LicenseInfo;
-import org.bdlions.bean.LicenseKey;
+import org.bdlions.bean.SerialNumberInfo;
 import org.bdlions.constants.ResponseCodes;
 import org.bdlions.db.APIManager;
 import org.bdlions.db.Database;
@@ -81,18 +76,13 @@ public class APIManageServer extends AbstractVerticle {
         });
         
         
-        router.route("/getalllicensekeys*").handler(BodyHandler.create());
-        router.post("/getalllicensekeys").handler((RoutingContext routingContext) -> {
-            
-            //String userName = routingContext.request().getParam("username");
-            //String password = routingContext.request().getParam("password");
-            //String limit = routingContext.request().getParam("limit");
-            //String offset = routingContext.request().getParam("offset");
+        router.route("/getallserialnumbers*").handler(BodyHandler.create());
+        router.post("/getallserialnumbers").handler((RoutingContext routingContext) -> {            
             APIManager apiManager = new APIManager();
-            List<LicenseKey> licenseKeyList = apiManager.getAllLicesneKeys();
+            List<SerialNumberInfo> serialNumberList = apiManager.getAllSerialNumbers();
             ResultEvent resultEvent = new ResultEvent();
             resultEvent.setResponseCode(ResponseCodes.SUCCESS);
-            resultEvent.setResult(licenseKeyList);
+            resultEvent.setResult(serialNumberList);
             
             HttpServerResponse response = routingContext.response();
             response.end(resultEvent.toString());
@@ -101,12 +91,12 @@ public class APIManageServer extends AbstractVerticle {
         router.route("/createlicensekey*").handler(BodyHandler.create());
         router.post("/createlicensekey").handler((RoutingContext routingContext) -> {
             
-            String key = routingContext.request().getParam("key");
+            String serialNumber = routingContext.request().getParam("serial_number");
             
             APIManager apiManager = new APIManager();
-            LicenseKey licenseKey = new LicenseKey();
-            licenseKey.setKey(key);
-            apiManager.createLicenseKey(licenseKey);
+            SerialNumberInfo serialNumberInfo = new SerialNumberInfo();
+            serialNumberInfo.setSerialNumber(serialNumber);
+            apiManager.createSerialNumber(serialNumberInfo);
             ResultEvent resultEvent = new ResultEvent();
             resultEvent.setResponseCode(ResponseCodes.SUCCESS);
             

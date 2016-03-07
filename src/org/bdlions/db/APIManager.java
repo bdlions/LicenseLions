@@ -9,7 +9,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import org.bdlions.bean.LicenseInfo;
-import org.bdlions.bean.LicenseKey;
+import org.bdlions.bean.SerialNumberInfo;
 import org.bdlions.db.repositories.LicenseAPI;
 import org.bdlions.exceptions.DBSetupException;
 import org.bdlions.utility.DateUtils;
@@ -27,24 +27,24 @@ public class APIManager {
     {
         licenseAPI = new LicenseAPI();
     }
-    public List<LicenseKey> getAllLicesneKeys()
+    public List<SerialNumberInfo> getAllSerialNumbers()
     {
-        List<LicenseKey> licenseKeyList = new ArrayList<>();
+        List<SerialNumberInfo> serialNumberList = new ArrayList<>();
         try 
         {
-            licenseKeyList = licenseAPI.getAllLicenseKeys();
+            serialNumberList = licenseAPI.getAllSerialNumbers();
         }
         catch (SQLException | DBSetupException ex) {
             logger.error(ex.getMessage());
         }
-        return licenseKeyList;
+        return serialNumberList;
     }
     
-    public void createLicenseKey(LicenseKey licenseKey)
+    public void createSerialNumber(SerialNumberInfo serialNumberInfo)
     {
         try 
         {
-            licenseAPI.createLicenseKey(licenseKey);
+            licenseAPI.createSerialNumber(serialNumberInfo);
         }
         catch (SQLException | DBSetupException ex) {
             logger.error(ex.getMessage());

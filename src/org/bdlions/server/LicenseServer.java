@@ -14,6 +14,7 @@ import io.vertx.ext.web.handler.BodyHandler;
 import java.sql.Connection;
 import java.sql.SQLException;
 import org.bdlions.bean.LicenseInfo;
+import org.bdlions.constants.ResponseCodes;
 import org.bdlions.db.Database;
 import org.bdlions.db.LicenseManager;
 import org.bdlions.exceptions.DBSetupException;
@@ -25,7 +26,7 @@ import org.slf4j.LoggerFactory;
  * @author nazmul hasan
  */
 public class LicenseServer extends AbstractVerticle {
-    final static Logger logger = LoggerFactory.getLogger(AbstractVerticle.class);
+    final static Logger logger = LoggerFactory.getLogger(LicenseServer.class);
     private final int SERVER_PORT = 6060;
     
     @Override
@@ -39,21 +40,47 @@ public class LicenseServer extends AbstractVerticle {
         router.route("/isvalidlicense*").handler(BodyHandler.create());
         router.post("/isvalidlicense").handler((RoutingContext routingContext) -> {
             
-            String license = routingContext.request().getParam("license");
-            String motherboard = routingContext.request().getParam("motherboard");
-            String processor = routingContext.request().getParam("processor");
+//            String license = routingContext.request().getParam("license");
+//            String motherboard = routingContext.request().getParam("motherboard");
+//            String processor = routingContext.request().getParam("processor");
+//            String mac = routingContext.request().getParam("mac");
+//            
+//            LicenseInfo licenseInfo = new LicenseInfo();
+//            licenseInfo.setKey(license);
+//            licenseInfo.setMacAddress(mac);
+//            licenseInfo.setProcessorAddress(processor);
+//            licenseInfo.setCpuAddress(motherboard);
+//            
+//            LicenseManager licenseManager = new LicenseManager();
+//            int responseCode = licenseManager.isValidLicense(licenseInfo);
+            
+            HttpServerResponse response = routingContext.response();
+            
+            String serial_number = routingContext.request().getParam("serial_number");
+            String seed = routingContext.request().getParam("seed");
             String mac = routingContext.request().getParam("mac");
+            String key = routingContext.request().getParam("key");   
             
             LicenseInfo licenseInfo = new LicenseInfo();
-            licenseInfo.setKey(license);
-            licenseInfo.setMacAddress(mac);
-            licenseInfo.setProcessorAddress(processor);
-            licenseInfo.setCpuAddress(motherboard);
+            licenseInfo.setSerialNumber(serial_number);
+            try
+            {
+                licenseInfo.setSeed(Integer.parseInt(seed));
+            }
+            catch(Exception ex)
+            {
+                logger.error("Invalid seed :"+seed+" for the serial number: "+serial_number+" ,mac: "+mac+" and key: "+key);
+                logger.error(ex.toString());
+                response.end(""+ResponseCodes.ERROR_CODE_INVALID_SEED);
+                return;
+            }
             
+            licenseInfo.setMac(mac);
+            licenseInfo.setKey(key);
             LicenseManager licenseManager = new LicenseManager();
             int responseCode = licenseManager.isValidLicense(licenseInfo);
             
-            HttpServerResponse response = routingContext.response();
+            
             response.end(""+responseCode);
         });
         
